@@ -16,7 +16,7 @@ int main(void)
     cin.ignore(80, '\n');
     cout << endl;
 
-    ALTURA = 3.14159 * r ;
+    VOLUME = 3.14159 *pow(r, 2) * ALTURA;
 
     cout << "O valor do volume e...: " << VOLUME;
     cout << endl;
