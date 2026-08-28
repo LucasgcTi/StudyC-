@@ -14,7 +14,7 @@ int main(void)
 
     cout << "Insira o expoente...: "; cin >> EXPOENTE;
     cin.ignore(80, '\n');
-    cout << endl.
+    cout << endl;
 
     POTENCIA = pow(BASE, EXPOENTE);
 

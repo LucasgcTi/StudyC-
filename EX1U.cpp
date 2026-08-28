@@ -15,10 +15,10 @@ int main(void)
 
     cout << "O valor do Volume é: " << VOLUME;
 
-    cout << endl << endl
+    cout << endl << endl;
 
     cout << "Aperte <Enter> para encerrar... ";
-    cin.get()
+    cin.get();
 
     return 0;
 }
