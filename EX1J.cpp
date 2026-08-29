@@ -7,17 +7,15 @@ int main(void)
 {
     int A, B, R;
 
-    cout << "Informe o valor de <A>..: "; cin >> A;
+    cout << "Insira o valor de <A>...: "; cin >> A;
     cin.ignore(80, '\n');
 
-    cout << "Informe o valor de <B>..: "; cin >> B;
+    cout << "Insira o valor de <B>...: "; cin >> B;
     cin.ignore(80, '\n');
 
     R = pow(A - B, 2);
 
-
-    cout << "O quadrado da diferenca foi: " << R;
-    cout << endl;
+    cout << "O valor da difenrenca do quadrado entre A e B...: " << R << endl << endl;
 
     cout << "Aperte <Enter> para encerrar... ";
     cin.get();
